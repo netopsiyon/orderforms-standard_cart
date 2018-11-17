@@ -212,7 +212,7 @@
                         <div class="col-sm-4 two-row-center">
                             <strong>.{$tld}</strong>
                             {if $price.group}
-                                <span class="tld-sale-group tld-sale-group-{$price.group}">{$price.group}!</span>
+                                <span class="tld-sale-group tld-sale-group-{$price.group}">{lang key="domainCheckerSalesGroup.{$price.group}"}!</span>
                             {/if}
                         </div>
                         <div class="col-sm-8">
